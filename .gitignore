@@ -1,0 +1,23 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Mypy cache
+.mypy_cache/
+
+# Virtual environment
+venv/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store    # For macOS
+Thumbs.db    # For Windows
+
+# IDE/editor specific files
+.vscode/      # Visual Studio Code settings
+.idea/        # JetBrains IDEs (PyCharm, IntelliJ)
+*.swp         # vim swap files

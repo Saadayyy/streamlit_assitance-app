@@ -1,0 +1,105 @@
+{
+    "descriptive_statistics": {
+        "Temperature": {
+            "count": 6250.0,
+            "mean": 24.942136420955585,
+            "std": 3.014105847245184,
+            "min": 20.007565,
+            "25%": 22.447856946452923,
+            "50%": 24.83829777738267,
+            "75%": 27.422376543796798,
+            "max": 29.998671
+        },
+        "Humidity": {
+            "count": 6250.0,
+            "mean": 45.428405097749106,
+            "std": 8.91292225675535,
+            "min": 30.01597450346074,
+            "25%": 38.03739609782984,
+            "50%": 45.70339606613865,
+            "75%": 52.64673310960082,
+            "max": 59.969085
+        },
+        "SquareFootage": {
+            "count": 6250.0,
+            "mean": 1505.655069964937,
+            "std": 291.96457998222985,
+            "min": 1000.5126606747408,
+            "25%": 1250.683759327864,
+            "50%": 1512.0095144533884,
+            "75%": 1750.6572469069308,
+            "max": 1999.982252131635
+        },
+        "RenewableEnergy": {
+            "count": 6250.0,
+            "mean": 15.173503779815555,
+            "std": 9.057695453816777,
+            "min": 0.006642,
+            "25%": 7.476795396380513,
+            "50%": 15.291655495293533,
+            "75%": 22.839072471633564,
+            "max": 29.96532733777335
+        },
+        "EnergyConsumption": {
+            "count": 6250.0,
+            "mean": 76.69879474732369,
+            "std": 10.171065249712782,
+            "min": 53.263278,
+            "25%": 69.64233295304888,
+            "50%": 76.66788166743277,
+            "75%": 83.87092834424311,
+            "max": 99.20112
+        }
+    },
+    "missing_values": {
+        "Month": 0,
+        "Hour": 0,
+        "DayOfWeek": 0,
+        "Holiday": 0,
+        "Temperature": 0,
+        "Humidity": 0,
+        "SquareFootage": 0,
+        "Occupancy": 0,
+        "HVACUsage": 0,
+        "LightingUsage": 0,
+        "RenewableEnergy": 0,
+        "EnergyConsumption": 0
+    },
+    "correlations": {
+        "Temperature": {
+            "Temperature": 1.0,
+            "Humidity": -0.02397988363940194,
+            "SquareFootage": 0.016711596793065466,
+            "RenewableEnergy": -0.007171037554681882,
+            "EnergyConsumption": 0.41312076207166054
+        },
+        "Humidity": {
+            "Temperature": -0.02397988363940194,
+            "Humidity": 1.0,
+            "SquareFootage": -0.00044695019412298103,
+            "RenewableEnergy": 0.01874869363877483,
+            "EnergyConsumption": -0.03941163160988757
+        },
+        "SquareFootage": {
+            "Temperature": 0.016711596793065466,
+            "Humidity": -0.00044695019412298103,
+            "SquareFootage": 1.0,
+            "RenewableEnergy": 0.006576056414308506,
+            "EnergyConsumption": -0.006581156314226184
+        },
+        "RenewableEnergy": {
+            "Temperature": -0.007171037554681882,
+            "Humidity": 0.01874869363877483,
+            "SquareFootage": 0.006576056414308506,
+            "RenewableEnergy": 1.0,
+            "EnergyConsumption": 0.056187245227069145
+        },
+        "EnergyConsumption": {
+            "Temperature": 0.41312076207166054,
+            "Humidity": -0.03941163160988757,
+            "SquareFootage": -0.006581156314226184,
+            "RenewableEnergy": 0.056187245227069145,
+            "EnergyConsumption": 1.0
+        }
+    }
+}
